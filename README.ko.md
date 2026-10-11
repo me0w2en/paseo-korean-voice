@@ -35,7 +35,7 @@ Paseo 데몬 ──/v1/audio/speech (pcm)──▶ korean-voice ──▶ macOS 
 #    (또는 ~/.paseo/config.json에 "pluginsEnabled": true 추가 후 `paseo reload`)
 
 # 2) 플러그인 설치
-paseo plugin install github:me0w2en/paseo-korean-voice
+paseo plugin install npm:paseo-korean-voice      # 또는 github:me0w2en/paseo-korean-voice
 paseo plugin ls            # korean-voice가 running인지 확인
 
 # 3) 음성 설정을 게이트웨이로 연결 (config.json 자동 백업 후 병합) → Paseo 앱 재시작

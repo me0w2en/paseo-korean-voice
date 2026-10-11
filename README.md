@@ -37,7 +37,7 @@ Requirements: macOS, Paseo 0.11.2+, and a Groq or OpenAI API key.
 #    (or add "pluginsEnabled": true to ~/.paseo/config.json and run `paseo reload`)
 
 # 2) Install the plugin
-paseo plugin install github:me0w2en/paseo-korean-voice
+paseo plugin install npm:paseo-korean-voice      # or github:me0w2en/paseo-korean-voice
 paseo plugin ls            # korean-voice should be running
 
 # 3) Point Paseo speech at the gateway (backs up config.json, then merges), then restart the Paseo app.
