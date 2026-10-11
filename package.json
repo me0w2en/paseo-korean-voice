@@ -1,6 +1,6 @@
 {
   "name": "paseo-korean-voice",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Local OpenAI-compatible speech gateway for Paseo: Korean dictation (Whisper prompt, glossary, hallucination filter) and macOS Korean TTS",
   "keywords": [
     "paseo",

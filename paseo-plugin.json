@@ -1,6 +1,5 @@
 {
   "id": "korean-voice",
-  "name": "Korean Voice",
   "description": "Korean dictation and voice-mode speech for Paseo: a local OpenAI-compatible gateway that swaps Whisper's English prompt for a Korean prompt and glossary, filters hallucinations, and speaks with macOS Korean voices.",
   "requirements": {
     "paseo": ">=0.11.2"
