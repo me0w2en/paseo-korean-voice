@@ -1,8 +1,17 @@
 {
   "name": "paseo-korean-voice",
-  "private": true,
   "version": "0.1.0",
   "description": "Local OpenAI-compatible speech gateway for Paseo: Korean dictation (Whisper prompt, glossary, hallucination filter) and macOS Korean TTS",
+  "keywords": [
+    "paseo",
+    "paseo-plugin",
+    "korean",
+    "whisper",
+    "speech-to-text",
+    "tts"
+  ],
+  "author": "me0w2en",
+  "homepage": "https://github.com/me0w2en/paseo-korean-voice#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -17,7 +26,10 @@
     "index.server.tsx",
     "client/",
     "server/",
-    "shared/"
+    "shared/",
+    "scripts/",
+    "README.md",
+    "README.ko.md"
   ],
   "scripts": {
     "typecheck": "tsc --noEmit"
